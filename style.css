@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+/*Reset Initial Style*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f4f0ec;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+input{
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/******* Navbar ******/
+
+.main-header{
+    height: 52px;
+    position: fixed;
+    background: white;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.inner-main-div{
+    width: auto;
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-header > div > div{
+    display: flex;
+    align-items: center;
+    width: 100;
+}
+
+#mainlogo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.nav-left{
+    margin-top: 5px;
+    float: left;
+}
+.inner-main-div > div input{
+    font-weight: bold;
+    background: #e1e9ee;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+    width: 270px;
+    flex: 1;
+    color: #F9F9F9;
+    padding-left: 10px;
+}
+.main-header > div > div div {
+    display: flex;
+    flex: 1;
+    max-width: 280px;
+    position: relative;
+}
+#search-icon{
+    position: absolute;
+    left: -530px;
+    top: 18px;
+    font-size: 13.5px;
+    color: black;
+}
+
+.nav-right{
+    float: right;
+    
+}
+
+.nav-right > ul{
+    display: flex;
+    align-items: flex-end;
+}
+.nav-right > ul > li{
+    
+    display: inline-block;
+    height: 50px;
+}
+.nav-item-text{
+    font-size: 12px;
+    color: gray;
+}
+.nav-right >ul > li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80px;
+    height: 100%;
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+#home{
+    position: relative;
+    font-size: 22px;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.nav-me{
+    left: -10px;
+    border-right: 1px solid #DCDCDC;
+}
+.me-navbar{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid #e1e9ee;
+}
