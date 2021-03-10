@@ -220,10 +220,13 @@ a{
     display: flex;
     flex-direction: column;
 }
-#profile-links a{
+.profile-links a{
     display: flex;
     justify-content: space-between;
     padding: 3px 12px;
+}
+.profile-links a span{
+    
 }
 
 
