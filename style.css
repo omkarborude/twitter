@@ -140,5 +140,75 @@ a{
 }
 #premium{
     margin-top: -5px;
-}    
+}  
+
+
+/******* Left side  *******/
+
+
+
+.left-side-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.left-inner-main-div{
+    
+    height: 100vh;
+    width: 216px;
+}
+.left-inner-main-div > div{
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+/***   left side Profile Card  ****/
+
+#profile-card{
+    height: 350px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#profile-background{
+    height: 55px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
