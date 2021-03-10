@@ -165,21 +165,24 @@ a{
 }
 .left-inner-main-div > div{
     background: #fff;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
 
 /***   left side Profile Card  ****/
 
 #profile-card{
-    height: 350px;
+    height: 335px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
 }
 #profile-background{
     height: 55px;
     background: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .profile-info{
@@ -187,9 +190,8 @@ a{
     width: 216px;
     background: transparent;
     padding: 12px 12px 16px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
     margin: -49px auto 12px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,6 +221,9 @@ a{
     padding-top: 5px;
     display: flex;
     flex-direction: column;
+    margin-top: -10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 .profile-links a{
     display: flex;
@@ -226,10 +231,19 @@ a{
     padding: 3px 12px;
 }
 .profile-links a span{
-    
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 13px;
+    font-weight: bold;
 }
-
-
+.profile-links a span.profile-view-number{
+    color: #0073b1;
+}
+.card-access-text{
+    font-size: 13px;
+    color:  rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
 
 
 
