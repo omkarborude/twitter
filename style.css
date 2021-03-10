@@ -245,9 +245,25 @@ a{
     border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
+/**** left side profile groups*****/
+#profile-groups{
+    width: 216px;
+    padding: 10px;
+}
 
 
-
+#profile-groups a{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 12px;
+}
+#profile-groups a span{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    font-weight: 500;
+    flex: auto;
+    margin-left: 10px;
+}
 
 
 
