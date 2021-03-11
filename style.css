@@ -149,7 +149,9 @@ a{
 .main-container{
     margin: 0 auto;
     width: 75%;
-    
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 .left-side-wrapper{
     display: flex;
@@ -159,7 +161,7 @@ a{
 
 .left-inner-main-div{
     height: 100vh;
-    width: 216px;
+    width: 18%;
     margin-right: 940px;
     margin-top: 90px;
 }
@@ -187,7 +189,6 @@ a{
 
 .profile-info{
     height: 160px;
-    width: 216px;
     background: transparent;
     padding: 12px 12px 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.16);
@@ -248,7 +249,7 @@ a{
 
 /**** left side profile groups*****/
 #profile-groups{
-    width: 216px;
+    width: 100%;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.16);
 }
@@ -276,24 +277,30 @@ a{
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 100px;
+    width: 60%; 
 }
 
 .inner-middle-main{
     grid-area: main-section;
     margin: 0 25;
-    width: 550px;
+    width: 100%;
 }
 
 /*** middle share box ***/
-.share-box{
-    background: #fff;
+#share-box{
     border-radius: 5px;
-    margin-top: 1px;
     display: flex;
-    flex-direction: column;
-    height: 
+    flex-direction: column; 
+    width: 60%;
+    height: 200px;
+    
 }
+.share-me{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 
+}
 
 
 
