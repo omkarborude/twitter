@@ -356,9 +356,12 @@ a{
 .post-top-div .tanay-info{
     margin-left: 10px;
 }
-.post-top-div .tanay-info a{
-    color: rgba(0, 0, 0, 0.6);
+.post-top-div .tanay-info strong{
     
+}
+.post-top-div .tanay-info small{
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
 }
 
 
