@@ -336,7 +336,7 @@ a{
 /**** Tanay Post ****/
 
 .tanay-post{
-    padding: 20px;
+    padding: 5px;
     height: 600px;
     background: white;
     margin-top: 20px;
@@ -344,6 +344,7 @@ a{
     border: 1px solid rgba(0, 0, 0, 0.16);
 }
 .post-top-div{
+    padding: 10px;
     height: 80px;
     display: flex;
 /*    background-color: red;*/
@@ -361,10 +362,15 @@ a{
 }
 .post-top-div .tanay-info small{
     color: rgba(0, 0, 0, 0.6);
-    display: flex;
+    display: flex; 
 }
-
-
+.fa-ellipsis-h{
+   color: rgba(0, 0, 0, 0.6);
+   margin-left: 220px;
+}
+.post-text{
+    font-family: Sans-Serif;
+}
 
 
 
