@@ -449,8 +449,15 @@ a{
 
 }
 
-
-
+.make-reaction{
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    
+}
+.make-reaction i{
+    padding: 10px;
+}
 
 
 
