@@ -440,17 +440,16 @@ a{
 
 .total-reaction{
     padding: 10px; 
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     padding-top: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 .total-reaction i{
     padding-left: 10px;
-
 }
 
 .make-reaction{
-    padding: 20px;
+
     font-size: 20px;
     color: rgba(0, 0, 0, 0.6);
     
