@@ -253,6 +253,7 @@ a{
     width: 100%;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
 }
 
 
@@ -336,8 +337,7 @@ a{
 /**** Tanay Post ****/
 
 .tanay-post{
-    padding: 5px;
-    height: 600px;
+    height: auto;
     background: white;
     margin-top: 20px;
     border-radius: 10px;
@@ -345,7 +345,7 @@ a{
 }
 .post-top-div{
     padding: 10px;
-    height: 80px;
+    height: 70px;
     display: flex;
 /*    background-color: red;*/
 }
@@ -368,17 +368,70 @@ a{
    color: rgba(0, 0, 0, 0.6);
    margin-left: 220px;
 }
+.post-bottom-div{
+    margin-top: -10px;
+    padding: 10px;
+}
 .post-text{
     font-family: Sans-Serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.tanybig{
+    width: 100%;
+    
 }
 
 
+/****** Right Side  *****/
 
+#right-side-wrapper{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+    margin-top: -1795px;
+    margin-left: 880px;
+}
+#right-side-inner{
+    width: 100%;
+    height: 100vh;
+    margin-right: 500px;
+}
 
+#linkedin-news-right{
+    height: 350px;
+    padding: 12px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+#linkedin-news-right ul span{
+    margin-left: 10px;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+#linkedin-news-right ul small{
+    margin-left: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
 
-
-
-
+.add-right{
+    margin-top: 10px;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+    border-radius: 10px;
+}
+.add-right img{
+    height: 100%;
+    width: 100%;
+}
 
 
 
