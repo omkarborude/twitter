@@ -441,7 +441,7 @@ a{
 .total-reaction{
     padding: 10px; 
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 .total-reaction i{
